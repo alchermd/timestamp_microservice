@@ -1,1 +1,1 @@
-web: gunicorn app:timestamp --log-file=-
+web: gunicorn timestamp:app --log-file=-
